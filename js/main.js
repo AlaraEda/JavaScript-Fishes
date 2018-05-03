@@ -22,9 +22,9 @@
             fishes.style.top = randomNumber2 + "px"
 
             //Kleuren
-            //fishes.style.webkitFilter = "hue-rotate(200deg)"
+            fishes.style.webkitFilter = "hue-rotate("+ randomNumber3+ "deg)"
             fishes.style.filter = "hue-rotate(" + randomNumber3 + "deg)"   //Binnen  0 - 360
-        }, i* 1000)
+        }, i* 100)
 
         setTimeout(function(){
             //Random nummer voor de scherm grootte
@@ -44,6 +44,14 @@
         }, i * 100)                                                          //Om de 0,1 sec een nieuwe bel.
 
     }
+
+
+//Als ik op scherm klik word dat gemeten in de console
+window.addEventListener("click", Vis)
+
+function Vis(){
+        console.log("clicked")
+}
 
 //
 // roep een functie aan als alles geladen is
