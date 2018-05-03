@@ -5,12 +5,8 @@
 
 
 function doSetTimeOut(i){
-    setTimeout(function(){},100)
-}
-
-    let i;
-    for (i = 0; i < 10; i++) {
-
+    setTimeout(function(){
+        console.log(i)
         //Random nummer voor de scherm grootte & plaats de code hier zodat er steeds weer een random nummer komt
         let screenSize = window.innerWidth * 0.9
         let screenSize2 = window.innerHeight * 0.8
@@ -31,6 +27,12 @@ function doSetTimeOut(i){
         //Kleuren
         //fishes.style.webkitFilter = "hue-rotate(200deg)"
         fishes.style.filter = "hue-rotate(" + randomNumber3 + "deg)"   //Binnen  0 - 360
+    }, i * 900)
+}
+
+    let i;
+    for (i = 0; i < 100; i++) {
+        doSetTimeOut(i)
     }
 
 
