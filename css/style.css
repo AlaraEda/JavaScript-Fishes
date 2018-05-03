@@ -16,7 +16,8 @@ body * {
 fish {
     background-image: url(../images/fish.png);
     width:130px; height: 110px;
-    
+
+
     /* kleur variatie met css */
     -webkit-filter: hue-rotate(90deg);
     filter: hue-rotate(90deg);
