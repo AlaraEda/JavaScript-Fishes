@@ -1,8 +1,9 @@
-let screenSize = window.innerWidth
-let randomNumber = Math.random()*1000
+let screenSize = window.innerWidth * 0.9
+let screenSize2 = window.innerHeight * 0.8
 
-
-let randomNumber2 = Math.random()*700
+let randomNumber = Math.random()* screenSize
+let randomNumber2 = Math.random()*screenSize2
+let randomNumber3 = Math.random()* screenSize
 
 //
 // geef de vis een random positie en een random kleur
@@ -24,7 +25,7 @@ fishes.style.filter = "hue-rotate(180deg)" //Binnen  0 - 360
 //
 let bubbles = document.createElement("bubble")
 document.body.appendChild(bubbles)
-bubbles.style.left = randomNumber +"px"
+bubbles.style.left = randomNumber3 +"px"
 bubbles.style.top = "0px"
 
 // let bubble = bubbles[0]// Verander dit en de bel komt midden in het beeld
