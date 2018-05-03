@@ -17,6 +17,8 @@
             let fishes = document.createElement("fish")                    //Creert vis in de DOM
             document.body.appendChild(fishes)                              //Zorgt dat de vis in de body van de DOM gestopt word
 
+            fishes.addEventListener("click", Vis)
+            
             //Posities/locaties
             fishes.style.left = randomNumber + "px"
             fishes.style.top = randomNumber2 + "px"
@@ -47,14 +49,13 @@
 
 
 
-let elements = document.getElementsByName("element")
-for (let element of elements){
-        element.addEventListener("click", Vis)
-    console.log('kip')
-    }
+//Als ik op scherm klik word dat gemeten in de console
+
+
 function Vis(){
-        console.log("clicked")
+    console.log("clicked")
 }
+
 
 //
 // roep een functie aan als alles geladen is
