@@ -14,15 +14,15 @@ for (i = 0; i < 100; i++) {
     let randomNumber3 = Math.random() * 360
 
     //Vis creeeren
-    let fishes = document.createElement("fish")         //Creert vis in de DOM
-    document.body.appendChild(fishes)                   //Zorgt dat de vis in de body van de DOM gestopt word
+    let fishes = document.createElement("fish")                 //Creert vis in de DOM
+    document.body.appendChild(fishes)                           //Zorgt dat de vis in de body van de DOM gestopt word
 
     //Posities/locaties
     fishes.style.left = randomNumber + "px"
     fishes.style.top = randomNumber2 + "px"
 
     //fishes.style.webkitFilter = "hue-rotate(200deg)"
-    fishes.style.filter = "hue-rotate("+randomNumber3 +"deg)" //Binnen  0 - 360
+    fishes.style.filter = "hue-rotate("+randomNumber3 +"deg)"   //Binnen  0 - 360
 }
 
 //
@@ -47,8 +47,6 @@ for (q = 0; q<100; q++) {
 }
 
 // let bubble = bubbles[0]// Verander dit en de bel komt midden in het beeld
-
-
 
 
 //
