@@ -46,9 +46,12 @@
     }
 
 
-//Als ik op scherm klik word dat gemeten in de console
-window.addEventListener("click", Vis)
 
+let elements = document.getElementsByName("element")
+for (let element of elements){
+        element.addEventListener("click", Vis)
+    console.log('kip')
+    }
 function Vis(){
         console.log("clicked")
 }
