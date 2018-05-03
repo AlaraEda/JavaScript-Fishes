@@ -4,9 +4,10 @@
 //
 
 
-window.setTimeout(kip(),2000)
-window.setTimeout(kip(),2000)
-function kip(){
+function doSetTimeOut(i){
+    setTimeout(function(){},100)
+}
+
     let i;
     for (i = 0; i < 10; i++) {
 
@@ -31,7 +32,7 @@ function kip(){
         //fishes.style.webkitFilter = "hue-rotate(200deg)"
         fishes.style.filter = "hue-rotate(" + randomNumber3 + "deg)"   //Binnen  0 - 360
     }
-}
+
 
 
         //console.log(i)
