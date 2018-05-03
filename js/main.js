@@ -4,11 +4,11 @@
 let fishes = document.createElement("fish")
 document.body.appendChild(fishes)
 
-let fish = fishes[0] //Verander hier de nummer en de vis komt ergens anders, bel komt midden in scherm & vis kleur veranderd
-fish.style.left = "200px"
-fish.style.top = "100px"
-fish.style.webkitFilter = "hue-rotate(200deg)"
-fish.style.filter = "hue-rotate(200deg)"
+// let fish = fishes[0] //Verander hier de nummer en de vis komt ergens anders, bel komt midden in scherm & vis kleur veranderd
+// fish.style.left = "200px"
+// fish.style.top = "100px"
+// fish.style.webkitFilter = "hue-rotate(200deg)"
+// fish.style.filter = "hue-rotate(200deg)"
 
 //
 // geef de bubble een random positie
@@ -16,9 +16,9 @@ fish.style.filter = "hue-rotate(200deg)"
 let bubbles = document.createElement("bubble")
 document.body.appendChild(bubbles)
 
-let bubble = bubbles[0]// Verander dit en de bel komt midden in het beeld
-bubble.style.left = "200px"
-bubble.style.top = "0px" //Hoog getal = kleur vis veranderd en geen bel
+// let bubble = bubbles[0]// Verander dit en de bel komt midden in het beeld
+// bubble.style.left = "200px"
+// bubble.style.top = "0px" //Hoog getal = kleur vis veranderd en geen bel
 
 
 
