@@ -17,8 +17,16 @@
             let fishes = document.createElement("fish")                    //Creert vis in de DOM
             document.body.appendChild(fishes)                              //Zorgt dat de vis in de body van de DOM gestopt word
 
+            //Vissen zijn clickabel
             fishes.addEventListener("click", Vis)
-            
+
+            //dooie vis
+            function Vis(){
+                console.log("clicked")
+                // fishes.classList.add("deadfish")
+                fishes.innerHTML = "Pravo Geklikt"
+            }
+
             //Posities/locaties
             fishes.style.left = randomNumber + "px"
             fishes.style.top = randomNumber2 + "px"
@@ -49,12 +57,8 @@
 
 
 
-//Als ik op scherm klik word dat gemeten in de console
 
 
-function Vis(){
-    console.log("clicked")
-}
 
 
 //
