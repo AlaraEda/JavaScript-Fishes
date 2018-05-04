@@ -20,14 +20,14 @@
             //Vissen zijn clickabel
             fishes.addEventListener("click", dooieVis)
 
-            //dooie vis
-            function dooieVis(){
-                console.log("clicked")
-                fishes.classList.add("dead")                               //Want in CSS staat de afbeelding van bot vis als .dead
+                //dooie vis
+                function dooieVis(){
+                    console.log("clicked")
+                    fishes.classList.add("dead")                           //Want in CSS staat de afbeelding van bot vis als .dead
                                                                            //.dead is het zelfde als "select all elements met de class = "dead"
                                                                            //Dus moet je niet.dead maar dead typen tussen de haakjes.
                                                                            //Plus je veranderd de vis eigenschap. Dus moet je fishes doen.
-            }
+                }
 
             //Posities/locaties
             fishes.style.left = randomNumber + "px"
