@@ -19,7 +19,6 @@ fishes.style.filter = "hue-rotate(180deg)" //Binnen  0 - 360
 //fish.style.left = "200px"
 //fish.style.top = "100px"
 
-
 //
 // geef de bubble een random positie
 //
