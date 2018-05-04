@@ -56,16 +56,3 @@
         }, i * 100)                                                          //Om de 0,1 sec een nieuwe bel.
 
     }
-
-
-
-
-
-
-
-//
-// roep een functie aan als alles geladen is
-// Dit word nog niet uitgevoerd.
-window.addEventListener("load", function () {
-    console.log("start het aquarium")
-})
