@@ -18,13 +18,15 @@
             document.body.appendChild(fishes)                              //Zorgt dat de vis in de body van de DOM gestopt word
 
             //Vissen zijn clickabel
-            fishes.addEventListener("click", Vis)
+            fishes.addEventListener("click", dooieVis)
 
             //dooie vis
-            function Vis(){
+            function dooieVis(){
                 console.log("clicked")
-                let node = document.classList.add(".dead")
-                fishes.appendChild(node);
+                fishes.classList.add("dead")                               //Want in CSS staat de afbeelding van bot vis als .dead
+                                                                           //.dead is het zelfde als "select all elements met de class = "dead"
+                                                                           //Dus moet je niet.dead maar dead typen tussen de haakjes.
+                                                                           //Plus je veranderd de vis eigenschap. Dus moet je fishes doen.
             }
 
             //Posities/locaties
