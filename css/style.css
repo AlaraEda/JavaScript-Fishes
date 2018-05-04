@@ -16,7 +16,8 @@ body * {
 fish {
     background-image: url(../images/fish.png);
     width:130px; height: 110px;
-    
+
+
     /* kleur variatie met css */
     -webkit-filter: hue-rotate(90deg);
     filter: hue-rotate(90deg);
@@ -27,7 +28,8 @@ fish {
 
 .dead {
     background-image: url(../images/bones.png);
-    animation: none;
+    /* this used to be "none" instead of fishanimation 4s ease-in-out infinite alternate */
+    animation: fishanimation 4s ease-in-out infinite alternate;
 }
 
 bubble {
