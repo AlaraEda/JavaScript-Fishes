@@ -28,7 +28,8 @@ fish {
 
 .dead {
     background-image: url(../images/bones.png);
-    animation: none;
+    /* this used to be "none" instead of fishanimation 4s ease-in-out infinite alternate */
+    animation: fishanimation 4s ease-in-out infinite alternate;
 }
 
 bubble {
