@@ -14,7 +14,7 @@
             let randomNumber3 = Math.random() * 360
 
             //Vis creeeren
-            let fishes = document.createElement("fish")                    //Creert vis in de DOM
+            let fishes = document.createElement("fish")                    //Creert vis in de DOM. de "fish" zit verwerkt in style.css
             document.body.appendChild(fishes)                              //Zorgt dat de vis in de body van de DOM gestopt word
 
             //Vissen zijn clickabel
@@ -23,8 +23,8 @@
             //dooie vis
             function Vis(){
                 console.log("clicked")
-                // fishes.classList.add("deadfish")
-                fishes.innerHTML = "Pravo Geklikt"
+                let node = document.classList.add(".dead")
+                fishes.appendChild(node);
             }
 
             //Posities/locaties
