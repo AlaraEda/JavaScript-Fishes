@@ -7,7 +7,7 @@ for (i = 0; i < 100; i++) {
 
     //Random nummer voor de scherm grootte
     let screenSize = window.innerWidth * 0.9
-    let screenSize2 = window.innerHeight * 0.8 
+    let screenSize2 = window.innerHeight * 0.8
 
     let randomNumber = Math.random() * screenSize
     let randomNumber2 = Math.random() * screenSize2
