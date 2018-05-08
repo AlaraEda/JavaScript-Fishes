@@ -5,7 +5,7 @@ let fishes = document.createElement("fish")
 document.body.appendChild(fishes)
 
 // let fish = fishes[0] //Verander hier de nummer en de vis komt ergens anders, bel komt midden in scherm & vis kleur veranderd
-// fish.style.left = "200px"
+//fishes.style.left = "200px"
 // fish.style.top = "100px"
 // fish.style.webkitFilter = "hue-rotate(200deg)"
 // fish.style.filter = "hue-rotate(200deg)"
