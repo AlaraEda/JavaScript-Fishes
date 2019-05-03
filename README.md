@@ -6,8 +6,7 @@ I'm not murderous...
 
                   .
                   .
-                  .
-                  
+                  .    
  ```
 
 _**But I just had to kill them all.**_
@@ -22,4 +21,4 @@ If you want to find this game written in another language, [click here](http://g
 
 
 Link To the Online Version
-http://github.com
+https://stud.hosted.hr.nl/0931871/JavaScript-Fishes/
