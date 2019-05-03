@@ -2,6 +2,7 @@
 
 Werken met loops, semantische elementen
 
+
 ### OPDRACHT
 
 Lees het **HTML en CSS voor Games** gedeelte uit de Quickstart
