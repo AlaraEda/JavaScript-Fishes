@@ -1,6 +1,21 @@
-# CMTTHE04 Week1 oefening 1
+# Killing all the colorful Fishes
+Look. You have to understand;
+```
+I'm not murderous... 
+      I actually adore little fishes...
+```
+<br>
+.<br>
+.<br>
+.<br>
 
-Werken met loops, semantische elementen
+**But I just had to kill them all.**
+
+Link To Online Version
+http://github.com - automatic!
+[GitHub](http://github.com)
+
+---
 
 ### OPDRACHT
 
