@@ -15,7 +15,7 @@ _**But I just had to kill them all.**_
 
 ---
 
-### OPDRACHT
+### Assignment
 I have made this little exercise to better understand Javascript, CSS and HTML.
 <br>The goal of the game is just clicking on as many fish as you can, brutally killing them in the process.
 <br>
